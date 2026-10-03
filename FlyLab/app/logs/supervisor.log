@@ -1,0 +1,191 @@
+2026-09-10T23:12:44.084Z sup · info · node-0 spawned pid 16932 ent 20001 ctl 21001 status 22001
+2026-09-10T23:12:44.112Z sup · info · node-1 spawned pid 16942 ent 20002 ctl 21002 status 22002
+2026-09-10T23:12:44.135Z sup · info · watchdog tier-1 up · peers node-0:22001 node-1:22002 · watchdog ON · auto-scale ON · logfile /data/data/com.termux/files/home/aarkanum-labs-test/app/logs/supervisor.log
+2026-09-10T23:12:44.189Z sup · info · control API on 127.0.0.1:22100
+2026-09-10T23:12:44.772Z sup · info · node-0 exited 1 · respawn on next tick if watchdog on
+2026-09-10T23:12:44.913Z sup · info · node-1 exited 1 · respawn on next tick if watchdog on
+2026-09-10T23:12:47.204Z sup · info · node-0 back up
+2026-09-10T23:12:47.220Z sup · info · node-1 back up
+2026-09-10T23:14:02.276Z sup · info · node-0 adopted existing pid 15254
+2026-09-10T23:14:02.305Z sup · info · node-1 adopted existing pid 15255
+2026-09-10T23:14:02.313Z sup · info · watchdog tier-1 up · peers node-0:22001 node-1:22002 · watchdog ON · auto-scale ON · logfile /data/data/com.termux/files/home/aarkanum-labs-test/app/logs/supervisor.log
+2026-09-10T23:14:02.331Z sup · info · control API on 127.0.0.1:22100
+2026-09-10T23:14:06.888Z sup · info · stop all (manual — watchdog will hold); use ⚡ start to revive
+2026-09-10T23:14:08.977Z sup · info · node-0 spawned pid 17076 ent 20001 ctl 21001 status 22001
+2026-09-10T23:14:08.996Z sup · info · node-1 spawned pid 17077 ent 20002 ctl 21002 status 22002
+2026-09-10T23:14:08.999Z sup · info · start all
+2026-09-10T23:14:11.358Z sup · info · node-0 back up
+2026-09-10T23:14:11.389Z sup · info · node-1 back up
+2026-09-10T23:15:05.360Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-10T23:15:05.864Z sup · info · seeding fabric 3000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 3000 --keep
+2026-09-10T23:15:06.475Z sup · info · seed done exit 0
+2026-09-10T23:17:38.223Z sup · info · node-0 exited 0 · respawn on next tick if watchdog on
+2026-09-10T23:17:38.228Z sup · info · node-1 exited 0 · respawn on next tick if watchdog on
+2026-09-10T23:17:41.439Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-10T23:17:41.465Z sup · info · node-0 spawned pid 17588 ent 20001 ctl 21001 status 22001
+2026-09-10T23:17:41.470Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-10T23:17:41.488Z sup · info · node-1 spawned pid 17594 ent 20002 ctl 21002 status 22002
+2026-09-10T23:17:44.465Z sup · info · node-0 back up
+2026-09-10T23:17:44.487Z sup · info · node-1 back up
+2026-09-10T23:18:35.502Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-10T23:18:36.004Z sup · info · seeding fabric 1200 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 1200 --keep
+2026-09-10T23:18:36.478Z sup · info · seed done exit 0
+2026-09-10T23:19:25.709Z sup · info · node-0 adopted existing pid 17588
+2026-09-10T23:19:25.733Z sup · info · node-1 adopted existing pid 17594
+2026-09-10T23:19:25.740Z sup · info · watchdog tier-1 up · peers node-0:22001 node-1:22002 · watchdog ON · auto-scale ON · logfile /data/data/com.termux/files/home/aarkanum-labs-test/app/logs/supervisor.log
+2026-09-10T23:19:25.754Z sup · info · control API on 127.0.0.1:22100
+2026-09-10T23:19:31.653Z sup · info · node-0 adopted existing pid 17588
+2026-09-10T23:19:31.676Z sup · info · node-1 adopted existing pid 17594
+2026-09-10T23:19:31.685Z sup · info · watchdog tier-1 up · peers node-0:22001 node-1:22002 · watchdog ON · auto-scale ON · logfile /data/data/com.termux/files/home/aarkanum-labs-test/app/logs/supervisor.log
+2026-09-10T23:19:31.701Z sup · info · control API on 127.0.0.1:22100
+2026-09-10T23:22:18.787Z sup · info · node-0 start: already up
+2026-09-10T23:22:18.792Z sup · info · node-1 start: already up
+2026-09-10T23:22:18.793Z sup · info · start all
+2026-09-10T23:22:20.198Z sup · info · node-0 spawned pid 18282 ent 20001 ctl 21001 status 22001
+2026-09-10T23:22:20.214Z sup · info · node-1 spawned pid 18283 ent 20002 ctl 21002 status 22002
+2026-09-10T23:22:20.216Z sup · info · reboot all
+2026-09-10T23:22:22.830Z sup · info · node-0 back up
+2026-09-10T23:22:22.841Z sup · info · node-1 back up
+2026-09-10T23:23:19.856Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-10T23:23:20.362Z sup · info · seeding fabric 3000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 3000 --keep
+2026-09-10T23:23:21.038Z sup · info · seed done exit 0
+2026-09-11T00:34:39.325Z sup · info · node-0 exited 0 · respawn on next tick if watchdog on
+2026-09-11T00:34:39.329Z sup · info · node-1 exited 0 · respawn on next tick if watchdog on
+2026-09-11T00:34:43.105Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T00:34:43.116Z sup · info · node-0 spawned pid 23614 ent 20001 ctl 21001 status 22001
+2026-09-11T00:34:43.128Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T00:34:43.141Z sup · info · node-1 spawned pid 23615 ent 20002 ctl 21002 status 22002
+2026-09-11T00:34:46.126Z sup · info · node-0 back up
+2026-09-11T00:34:46.150Z sup · info · node-1 back up
+2026-09-11T00:35:37.141Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T00:35:37.642Z sup · info · seeding fabric 3000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 3000 --keep
+2026-09-11T00:35:38.117Z sup · info · seed done exit 0
+2026-09-11T02:57:40.835Z sup · info · node-0 spawned pid 28668 ent 20001 ctl 21001 status 22001
+2026-09-11T02:57:40.854Z sup · info · node-1 spawned pid 28679 ent 20002 ctl 21002 status 22002
+2026-09-11T02:57:40.885Z sup · info · watchdog tier-1 up · peers node-0:22001 node-1:22002 · watchdog ON · auto-scale ON · logfile /data/data/com.termux/files/home/aarkanum-labs-test/app/logs/supervisor.log
+2026-09-11T02:57:40.906Z sup · info · control API on 127.0.0.1:22100
+2026-09-11T02:57:43.965Z sup · info · node-0 back up
+2026-09-11T02:57:43.993Z sup · info · node-1 back up
+2026-09-11T02:58:40.919Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T02:58:41.422Z sup · info · seeding fabric 3000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 3000 --keep
+2026-09-11T02:58:41.937Z sup · info · seed done exit 0
+2026-09-11T03:02:36.233Z sup · info · node-1 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:02:36.235Z sup · info · node-0 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:02:40.976Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:02:40.985Z sup · info · node-0 spawned pid 29349 ent 20001 ctl 21001 status 22001
+2026-09-11T03:02:40.993Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:02:41.016Z sup · info · node-1 spawned pid 29350 ent 20002 ctl 21002 status 22002
+2026-09-11T03:02:44.002Z sup · info · node-0 back up
+2026-09-11T03:02:44.031Z sup · info · node-1 back up
+2026-09-11T03:03:35.016Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T03:03:35.518Z sup · info · seeding fabric 3000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 3000 --keep
+2026-09-11T03:03:36.014Z sup · info · seed done exit 0
+2026-09-11T03:55:12.727Z sup · info · node-0 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:55:12.731Z sup · info · node-1 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:55:18.175Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:55:18.196Z sup · info · node-0 spawned pid 4045 ent 20001 ctl 21001 status 22001
+2026-09-11T03:55:18.201Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:55:18.211Z sup · info · node-1 spawned pid 4046 ent 20002 ctl 21002 status 22002
+2026-09-11T03:55:21.221Z sup · info · node-0 back up
+2026-09-11T03:55:21.252Z sup · info · node-1 back up
+2026-09-11T03:56:12.225Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T03:56:12.730Z sup · info · seeding fabric 1200 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 1200 --keep
+2026-09-11T03:56:13.182Z sup · info · seed done exit 0
+2026-09-11T03:57:03.821Z sup · info · node-1 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:57:03.825Z sup · info · node-0 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:57:09.218Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:57:09.228Z sup · info · node-0 spawned pid 4530 ent 20001 ctl 21001 status 22001
+2026-09-11T03:57:09.241Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:57:09.257Z sup · info · node-1 spawned pid 4531 ent 20002 ctl 21002 status 22002
+2026-09-11T03:57:12.233Z sup · info · node-0 back up
+2026-09-11T03:57:12.258Z sup · info · node-1 back up
+2026-09-11T03:58:00.955Z sup · info · node-0 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:58:00.970Z sup · info · node-1 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:58:06.235Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:58:06.249Z sup · info · node-0 spawned pid 4821 ent 20001 ctl 21001 status 22001
+2026-09-11T03:58:06.256Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:58:06.266Z sup · info · node-1 spawned pid 4823 ent 20002 ctl 21002 status 22002
+2026-09-11T03:58:09.255Z sup · info · node-0 back up
+2026-09-11T03:58:09.279Z sup · info · node-1 back up
+2026-09-11T03:58:09.297Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T03:58:09.799Z sup · info · seeding fabric 1200 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 1200 --keep
+2026-09-11T03:58:10.332Z sup · info · seed done exit 0
+2026-09-11T03:59:15.676Z sup · info · node-0 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:59:15.677Z sup · info · node-1 exited 0 · respawn on next tick if watchdog on
+2026-09-11T03:59:21.264Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:59:21.273Z sup · info · node-0 spawned pid 5185 ent 20001 ctl 21001 status 22001
+2026-09-11T03:59:21.278Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T03:59:21.300Z sup · info · node-1 spawned pid 5187 ent 20002 ctl 21002 status 22002
+2026-09-11T03:59:24.283Z sup · info · node-0 back up
+2026-09-11T03:59:24.314Z sup · info · node-1 back up
+2026-09-11T04:00:15.313Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T04:00:15.816Z sup · info · seeding fabric 1200 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 1200 --keep
+2026-09-11T04:00:16.357Z sup · info · seed done exit 0
+2026-09-11T04:06:21.611Z sup · info · node-0 start: already up
+2026-09-11T04:06:21.611Z sup · info · node-1 start: already up
+2026-09-11T04:06:21.612Z sup · info · start all
+2026-09-11T04:06:35.732Z sup · info · recover — stop all → start all → seed
+2026-09-11T04:06:35.761Z sup · info · node-0 exited  · respawn on next tick if watchdog on
+2026-09-11T04:06:35.762Z sup · info · node-1 exited  · respawn on next tick if watchdog on
+2026-09-11T04:06:36.152Z sup · info · node-0 spawned pid 6189 ent 20001 ctl 21001 status 22001
+2026-09-11T04:06:36.165Z sup · info · node-1 spawned pid 6190 ent 20002 ctl 21002 status 22002
+2026-09-11T04:06:37.335Z sup · info · seeding fabric 4000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 4000 --keep
+2026-09-11T04:06:38.252Z sup · info · seed done exit 0
+2026-09-11T04:06:39.442Z sup · info · node-0 back up
+2026-09-11T04:06:39.452Z sup · info · node-1 back up
+2026-09-11T04:27:25.526Z sup · info · deploy − node-1
+2026-09-11T04:27:25.530Z sup · info · AUTO-SCALE − retire to 1 peers · cap 1 · free 339MB (heavy shed)
+2026-09-11T04:27:25.554Z sup · info · node-1 exited  · respawn on next tick if watchdog on
+2026-09-11T04:30:31.682Z sup · info · deploy + node-1 · 20002:21002:22002
+2026-09-11T04:30:31.684Z sup · info · AUTO-SCALE + spawn node-1 · cap 2 · free 572MB · load 0 / 1c
+2026-09-11T04:30:34.190Z sup · info · seeding fabric 3000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 3000 --keep
+2026-09-11T04:30:34.801Z sup · info · node-0 exited 1 · respawn on next tick if watchdog on
+2026-09-11T04:30:34.816Z sup · info · seed done exit 1
+2026-09-11T04:30:37.670Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T04:30:37.678Z sup · info · node-1 spawned pid 9314 ent 20002 ctl 21002 status 22002
+2026-09-11T04:30:40.671Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T04:30:40.693Z sup · info · node-0 spawned pid 9322 ent 20001 ctl 21001 status 22001
+2026-09-11T04:30:40.750Z sup · info · node-1 back up
+2026-09-11T04:30:43.694Z sup · info · node-0 back up
+2026-09-11T04:31:31.734Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T04:31:32.236Z sup · info · seeding fabric 3000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 3000 --keep
+2026-09-11T04:31:32.748Z sup · info · seed done exit 0
+2026-09-11T05:10:39.388Z sup · info · deploy − node-1
+2026-09-11T05:10:39.390Z sup · info · AUTO-SCALE − retire to 1 peers · cap 1 · free 266MB (heavy shed)
+2026-09-11T05:10:39.407Z sup · info · node-1 exited  · respawn on next tick if watchdog on
+2026-09-11T05:11:21.389Z sup · info · deploy + node-1 · 20002:21002:22002
+2026-09-11T05:11:21.390Z sup · info · AUTO-SCALE + spawn node-1 · cap 2 · free 532MB · load 0 / 1c
+2026-09-11T05:11:23.893Z sup · info · seeding fabric 3000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 3000 --keep
+2026-09-11T05:11:24.408Z sup · info · node-0 exited 1 · respawn on next tick if watchdog on
+2026-09-11T05:11:24.413Z sup · info · seed done exit 1
+2026-09-11T05:11:27.393Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T05:11:27.409Z sup · info · node-0 spawned pid 12473 ent 20001 ctl 21001 status 22001
+2026-09-11T05:11:27.418Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T05:11:27.431Z sup · info · node-1 spawned pid 12474 ent 20002 ctl 21002 status 22002
+2026-09-11T05:11:30.436Z sup · info · node-0 back up
+2026-09-11T05:11:30.467Z sup · info · node-1 back up
+2026-09-11T05:12:21.414Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T05:12:21.916Z sup · info · seeding fabric 3000 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 3000 --keep
+2026-09-11T05:12:22.465Z sup · info · seed done exit 0
+2026-09-11T05:14:18.547Z sup · info · node-0 exited 0 · respawn on next tick if watchdog on
+2026-09-11T05:14:18.550Z sup · info · node-1 exited 0 · respawn on next tick if watchdog on
+2026-09-11T05:14:24.428Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T05:14:24.445Z sup · info · node-0 spawned pid 12901 ent 20001 ctl 21001 status 22001
+2026-09-11T05:14:24.450Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T05:14:24.461Z sup · info · node-1 spawned pid 12902 ent 20002 ctl 21002 status 22002
+2026-09-11T05:14:27.453Z sup · info · node-0 back up
+2026-09-11T05:14:27.490Z sup · info · node-1 back up
+2026-09-11T05:15:18.456Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T05:15:18.957Z sup · info · seeding fabric 1200 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 1200 --keep
+2026-09-11T05:15:19.413Z sup · info · seed done exit 0
+2026-09-11T05:25:15.510Z sup · info · node-0 exited 0 · respawn on next tick if watchdog on
+2026-09-11T05:25:15.544Z sup · info · node-1 exited 0 · respawn on next tick if watchdog on
+2026-09-11T05:25:18.593Z sup · info · node-0 DOWN · watchdog rebooting (strike 2)
+2026-09-11T05:25:18.604Z sup · info · node-0 spawned pid 14286 ent 20001 ctl 21001 status 22001
+2026-09-11T05:25:18.611Z sup · info · node-1 DOWN · watchdog rebooting (strike 2)
+2026-09-11T05:25:18.624Z sup · info · node-1 spawned pid 14287 ent 20002 ctl 21002 status 22002
+2026-09-11T05:25:21.618Z sup · info · node-0 back up
+2026-09-11T05:25:21.638Z sup · info · node-1 back up
+2026-09-11T05:26:12.623Z sup · info · DEGRADED — peers up, 0 links for 60+ s · auto-seed to keep the fabric keyed
+2026-09-11T05:26:13.125Z sup · info · seeding fabric 1200 rounds · /data/data/com.termux/files/home/aarkanum-labs-test/node-tests/qkd-cluster.mjs --peers node-0=127.0.0.1:20001 node-1=127.0.0.1:20002 --rounds 1200 --keep
+2026-09-11T05:26:13.577Z sup · info · seed done exit 0
