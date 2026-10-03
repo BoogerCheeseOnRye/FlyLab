@@ -111,4 +111,4 @@ serve.js              zero-dependency static server (node)
 
 ## Tech
 
-Plain ES modules, Canvas + WebGL via three.js r160, one file of CSS, no transpilers, no package manager. `exp-core.mjs` is framework-free and testable headlessly — the physics has been validated with standalone probes (rate-invariance sweeps, machine configs, URL-param boot, and headless DOM smoke suites).<!-- rebuild 2026-10-03T22:04:26Z -->
+Plain ES modules, Canvas + WebGL via three.js r160, one file of CSS, no transpilers, no package manager. `exp-core.mjs` is framework-free and testable headlessly — the physics has been validated with standalone probes (rate-invariance sweeps, machine configs, URL-param boot, and headless DOM smoke suites).

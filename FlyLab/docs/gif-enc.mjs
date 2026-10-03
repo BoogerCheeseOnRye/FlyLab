@@ -1,5 +1,5 @@
 /* Minimal GIF89a codec — zero dependencies.
-   Ghost: FlyLab MRI clips are small palette images, so a full quantizer is
+   Ghost: Aarkanum MRI clips are small palette images, so a full quantizer is
    overkill: we map every pixel to a fixed 256-entry 3-3-2 RGB cube palette and
    LZW-encode with an 8-bit minimum code size. Deterministic and tiny.
 

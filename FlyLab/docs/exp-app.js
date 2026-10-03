@@ -13,11 +13,11 @@ const SUB = '₀₁₂₃₄₅₆₇₈₉';
 const IS_REAL = typeof window !== 'undefined' && typeof window.localStorage !== 'undefined';
 
 const LABS = {
-  name: 'FlyLab',
-  short: 'FlyLab',
-  key: 'flylab',
+  name: 'FlyLab Laboratories',
+  short: 'FlyLab Labs',
+  key: 'aarkanum-laboratories',
   fn: 'aar',
-  format: 'flylab/experiment@1',
+  format: 'aarkanum-laboratories/experiment@1',
   agent: 'unknown',
 };
 
@@ -4568,7 +4568,7 @@ function addNote(txt){
 }
 function importSnapshotData(data){
   if (!data || typeof data !== 'object' || data.format !== LABS.format){
-    sparkMsg('not a FlyLab snapshot'); return;
+    sparkMsg('not an FlyLab snapshot'); return;
   }
   const r = data.run || {};
   const ch = new Chamber(DATA, {
@@ -5063,7 +5063,7 @@ function idbOpen(){
   if (idbDb) return Promise.resolve(idbDb);
   return new Promise((res, rej) => {
     try {
-      const req = window.indexedDB.open('flylab', 1);
+      const req = window.indexedDB.open('aarkanum-labs', 1);
       req.onupgradeneeded = () => { const d = req.result; if (!d.objectStoreNames.contains('kv')) d.createObjectStore('kv'); };
       req.onsuccess = () => { idbDb = req.result; res(idbDb); };
       req.onerror = () => rej(req.error);

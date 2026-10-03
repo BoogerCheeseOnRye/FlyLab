@@ -4580,7 +4580,7 @@ function addNote(txt){
 }
 function importSnapshotData(data){
   if (!data || typeof data !== 'object' || data.format !== LABS.format){
-    sparkMsg('not a FlyLab snapshot'); return;
+    sparkMsg('not an Aarkanum snapshot'); return;
   }
   const r = data.run || {};
   const ch = new Chamber(DATA, {
